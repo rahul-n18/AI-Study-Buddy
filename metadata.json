@@ -1,0 +1,8 @@
+{
+  "name": "AI Study Buddy",
+  "description": "Your multi-featured AI companion. Features include the AI PDF Reading Assistant and the AI Routine Maker to help you organize your life.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}

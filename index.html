@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Study Buddy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/react-pdf@10.2.0/dist/esm/Page/AnnotationLayer.css" />
+  <link rel="stylesheet" href="https://unpkg.com/react-pdf@10.2.0/dist/esm/Page/TextLayer.css" />
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
+    "pdfjs-dist": "https://aistudiocdn.com/pdfjs-dist@^5.4.296",
+    "react-pdf/": "https://aistudiocdn.com/react-pdf@^10.2.0/",
+    "react-pdf": "https://aistudiocdn.com/react-pdf@^10.2.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0"
+  }
+}
+</script>
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    /* Light Theme Default */
+    background: linear-gradient(225deg, #e2e8f0 0%, #f1f5f9 50%, #e0f2fe 100%);
+    background-size: 400% 400%;
+    animation: gradientBG-light 15s ease infinite;
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 #f1f5f9;
+  }
+
+  html.dark body {
+    /* Dark Theme */
+    background: linear-gradient(225deg, #0a0e1a 0%, #1a202c 50%, #001a1a 100%);
+    background-size: 400% 400%;
+    animation: gradientBG-dark 15s ease infinite;
+    scrollbar-color: #2d3748 #1a202c;
+  }
+
+  @keyframes gradientBG-light {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  @keyframes gradientBG-dark {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Light scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 10px;
+    border: 2px solid #f1f5f9;
+  }
+
+  /* Dark scrollbar */
+  html.dark ::-webkit-scrollbar-track {
+    background: #1a202c;
+  }
+  html.dark ::-webkit-scrollbar-thumb {
+    background-color: #2d3748;
+    border: 2px solid #1a202c;
+  }
+
+
+  /* Entry Animations */
+  @keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-in-down { 
+    animation: fadeInDown 0.8s ease-out forwards; 
+  }
+  .animate-fade-in-up { 
+    animation: fadeInUp 0.8s ease-out 0.3s forwards;
+    opacity: 0;
+  }
+
+  /* Text Gradient Animation */
+  .animate-text-gradient {
+    background: linear-gradient(
+      -45deg,
+      #38bdf8, /* sky-400 */
+      #fb7185, /* rose-400 */
+      #fb923c, /* orange-400 */
+      #818cf8, /* indigo-400 */
+      #a3e635  /* lime-400 */
+    );
+    background-size: 400%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-gradient 10s ease-in-out infinite;
+  }
+
+  @keyframes text-gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="text-gray-800 dark:text-white">
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
