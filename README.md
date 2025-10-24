@@ -87,25 +87,24 @@
 
 <div align="center">
   <h3>🏠 Main Dashboard</h3>
-  <img src="components/img/Screenshot 2025-10-20 at 10.04.03 PM.png" alt="Main Dashboard" width="800" />
+  <img src="https://media.licdn.com/dms/image/v2/D562DAQGTyrSR42jYcQ/profile-treasury-image-shrink_800_800/B56ZoDXTDSKEAY-/0/1760993034138?e=1761912000&v=beta&t=PKtwSxBEgodFfbkj06uBbepbo-c2j6SsoHBmDWp7tok" alt="Main Dashboard" width="800" />
+  
   
   <h3>📄 PDF Reading Assistant</h3>
-  <img src="components/img/Screenshot 2025-10-20 at 10.05.46 PM.png" alt="PDF Assistant" width="800" />
+  <img src="https://media.licdn.com/dms/image/v2/D562DAQGqsHk3IFQS8w/profile-treasury-image-shrink_800_800/B56ZoDXbApH8Ac-/0/1760993067081?e=1761912000&v=beta&t=DBF5e4_GaTXfzLd-0SNbY9nZ8ouX9QdomAgiRnvxqUE" alt="PDF Assistant" width="800" />
   
   <h3>🎯 AI Routine Maker</h3>
-  <img src="components/img/Screenshot 2025-10-20 at 10.11.28 PM.png" alt="Routine Maker" width="800" />
+  <img src="https://media.licdn.com/dms/image/v2/D562DAQHAvvCUimCkbA/profile-treasury-image-shrink_800_800/B56ZoDXgXlIsAY-/0/1760993087964?e=1761912000&v=beta&t=EAoIY7i5gihrFvYRdq3bNVm4rhdTVDte5haFzNp39-4" alt="Routine Maker" width="800" />
   
   <h3>🌍 Language Learning</h3>
-  <img src="components/img/Screenshot 2025-10-20 at 10.11.46 PM.png" alt="Language Game" width="800" />
+  <img src="https://media.licdn.com/dms/image/v2/D562DAQFtXy7vHx4rcw/profile-treasury-image-shrink_800_800/B56ZoDXkqqHAAc-/0/1760993105864?e=1761912000&v=beta&t=_bra7T5yASxjT9422-MQKzIRXgySAcONjcdaI0aklWE" alt="Language Game" width="800" />
   
   <h3>🎨 Drawing Assistant</h3>
-  <img src="components/img/Screenshot 2025-10-20 at 10.13.39 PM.png" alt="Drawing Assistant" width="800" />
+  <img src="https://media.licdn.com/dms/image/v2/D562DAQFNh9X-nxjkvg/profile-treasury-image-shrink_800_800/B56ZoDXwtLI0AY-/0/1760993156924?e=1761912000&v=beta&t=5AC03M5pUhLb5Fq_cqwIsCI5j_-_95blqIrmkNaBwYM" alt="Drawing Assistant" width="800" />
   
   <h3>🎪 Event Discovery</h3>
-  <img src="components/img/Screenshot 2025-10-20 at 10.16.08 PM.png" alt="Event Discovery" width="800" />
-  
-  <h3>🎨 Drawing Results</h3>
-  <img src="components/img/Screenshot 2025-10-20 at 10.17.21 PM.png" alt="Drawing Results" width="800" />
+  <img src="https://media.licdn.com/dms/image/v2/D562DAQHjyqUSp34GPg/profile-treasury-image-shrink_800_800/B56ZoDXs.9J8AY-/0/1760993139933?e=1761912000&v=beta&t=mzx0xe6aR0l81B9aH5okxrmoU38RnGOXf2FI3aq3MLY" alt="Event Discovery" width="800" />
+
 </div>
 
 ---
